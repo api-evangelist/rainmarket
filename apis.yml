@@ -1,7 +1,32 @@
 aid: rainmarket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rainmarket.png
 name: Rainmarket
-description: Rainmarket is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rainmarket is the flagship intelligence platform of Digital Media Nusantara
+  (DMN), built to map and illuminate cross-border trade flows between ASEAN and
+  Hong Kong's Greater Bay Area. It combines three integrated engines — Supply
+  Chain Intelligence, a Tariff Tracker, and a Trade Flows Mapping engine — to
+  turn roughly USD100 billion in previously unmapped or mispriced regional trade
+  activity into investible, financeable, and transparently governed flows. The
+  platform is architected for sovereign-grade deployment, targeting the
+  security, compliance, and resiliency thresholds required by central banks,
+  financial regulators, and national-level intelligence environments, and serves
+  institutional investors, financial institutions, market regulators, and
+  enterprise treasury and supply-chain teams. Rainmarket was surfaced as a
+  portfolio company of 500 Global and profiled in the API Evangelist network. As
+  of this pass the company publishes no public API, developer portal, or
+  machine-readable service surface.
 url: https://raw.githubusercontent.com/api-evangelist/rainmarket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +36,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Trade Intelligence
+- Financial Markets
+- Supply Chain
+- Data
+- ASEAN
+- Market Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://digitalmedianusantara.com
+- type: About
+  url: https://digitalmedianusantara.com/about
+- type: TermsOfService
+  url: https://digitalmedianusantara.com/terms-and-condition
+- type: PrivacyPolicy
+  url: https://digitalmedianusantara.com/privacy-policy
+- type: DomainSecurity
+  url: security/rainmarket-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
